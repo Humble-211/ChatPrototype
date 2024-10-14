@@ -7,16 +7,29 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Heya")
+                .padding()
+                .background(Color.yellow, in: RoundedRectangle(cornerRadius: 5))
+                .shadow(color:Color.red, radius: 5, 5)
+            Text("how are you?")
+                .padding()
+                .background(Color.blue, in: RoundedRectangle(cornerRadius: 5))
+            
+            Text("I'm good thank you, hbu?")
+                .padding()
+                .background(Color.yellow, in: RoundedRectangle(cornerRadius: 5))
+
+            Text("I'm fine thanks")
+                .padding()
+                .background(Color.blue, in: RoundedRectangle(cornerRadius: 5))
         }
         .padding()
     }
+
 }
 
 #Preview {
